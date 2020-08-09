@@ -59,7 +59,7 @@
 }
 
 .background{
-    background: rgba(0,0,0,0.7) url('Image1.jpg');
+    background: rgba(0,0,0,0.7) url('../images/Image1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -115,7 +115,7 @@
     color:yellow;
 }
 .section{
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -227,5 +227,20 @@
     }
     .sar1{
         opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px 1px;
     }
 }
