@@ -59,7 +59,7 @@
 }
 
 .background{
-    background: rgba(0,0,0,0.7) url('../images/Image1.jpg');
+    background: rgba(0,0,0,0.7) url('Image1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -176,7 +176,7 @@
     color:brown;
 }
 .contact{
-    background: rgba(0,0,0,0.7) url('../images/image4.JPG');
+    background: rgba(0,0,0,0.7) url('Image4.JPG');
     background-size: cover;
     background-blend-mode: lighten;
 }
